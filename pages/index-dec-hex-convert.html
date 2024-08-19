@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="/img/favicon.ico">
+  <title>序列号记录</title>
+  <link href="/dist/bootstrap/v4.6.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-muted">Add some information about the album below.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">主页</a></li>
+            <li><a href="#" class="text-white">关于</a></li>
+            <li><a href="#" class="text-white">Email me</a></li>
+            <li><a target="_blank" href="https://wpa.qq.com/msgrd?v=3&uin=571928489&site=qq&menu=yes">联系我</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container d-flex justify-content-between">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false">
+          <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+          <circle cx="12" cy="13" r="4"/>
+        </svg>
+        <strong>Album</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+<main role="main">
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1>example</h1>
+      <p class="lead text-muted">Something examples.</p>
+      <p>
+        <a href="#" class="btn btn-secondary my-2">Main</a>
+        <!-- <a href="/my-bookmarks-simple/index.html" class="btn btn-secondary my-2">Secondary</a>-->
+        <!-- <a href="/zch-encrypt-js.html" class="btn btn-primary my-2" target="_blank">Encrypt</a>-->
+        <!-- <a href="/zch-tool-urls.html" class="btn btn-secondary my-2" target="_blank">SomeUrl</a>-->
+        <a href="#" class="btn btn-secondary my-2">Secondary</a>
+        <a href="#" class="btn btn-primary my-2" target="_blank">Encrypt</a>
+        <a href="#" class="btn btn-secondary my-2" target="_blank">SomeUrl</a>
+      </p>
+    </div>
+  </section>
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="jumbotron">
+        <!--设备号 deviceNum-->
+        <div class="input-group input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text">设备号：</span>
+          </div>
+          <input type="text" name="deviceNum" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="输入设备号">
+        </div>
+        <!--设备名称 deviceName-->
+        <div class="input-group input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text">设备名：</span>
+          </div>
+          <input type="text" name="deviceName" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="输入设备名称">
+        </div>
+        <!--设备序列号 deviceSN-->
+        <div class="input-group input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text">序列号：</span>
+          </div>
+          <input type="text" name="deviceSn" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="">
+        </div>
+        <br>
+        <!--DEMO-->
+        <div class="input-group input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-lg">示例字：</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        </div>
+        <br>
+        <div class="input-group input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text">示例二：</span>
+          </div>
+          <input type="text" aria-label="First name" class="form-control" aria-describedby="inputGroup-sizing-lg">
+          <input type="text" aria-label="Last name" class="form-control" aria-describedby="inputGroup-sizing-lg">
+        </div>
+        <br>
+      </div>
+      <div class="row marketing">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="/img/slide2.jpg" alt="adv" style="width: 100%;"/>
+            <div class="card-body">
+              <p class="card-text"><a href="#">富强 民主 文明 和谐</a></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="/img/bike.png" alt="adv" style="width: 100%;"/>
+            <div class="card-body">
+              <p class="card-text"><a href="#">自由 平等 公正 法治</a></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="/img/slide1.png" alt="adv" style="width: 100%;"/>
+            <div class="card-body">
+              <p class="card-text"><a href="#">爱国 敬业 诚信 友善</a></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"/>
+              <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <!-- <p class="card-text"><a target="_blank" href="pages/zch-analyse.html">协议分析</a></p>-->
+              <!-- <p class="card-text" style="display: none"><a target="_blank" href="pages/mingfei-analyse.html">协议分析-XB-MF</a></p>-->
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"/>
+              <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"/>
+              <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer class="footer">
+  <div style="margin: 0 auto;border:thin;text-align: center;">
+    <!-- <p><a target="_blank" href="https://www.beian.miit.gov.cn/">豫ICP备17025032号</a></p> -->
+    <p><a target="_blank" href="https://beian.miit.gov.cn">豫ICP备17025032号</a></p>
+  </div>
+</footer>
+<script src="/dist/zaddjs/jquery/jquery-3.4.1.min.js"></script>
+<script src="/dist/bootstrap/v4.6.1/js/bootstrap.bundle.min.js"></script>
+<script src="/dist/zaddjs/js-cn-zchpww/ie-emulation-modes-warning.js"></script>
+<script src="/dist/zaddjs/js-cn-zchpww/ie10-viewport-bug-workaround.js"></script>
+<script type="text/javascript">
+  let inputNameDeviceNum = $('input[name=deviceNum]');
+  let inputNameDeviceSn = $('input[name=deviceSn]');
+  let inputNameDeviceName = $('input[name=deviceName]');
+  // 输入 dec 解析 hex
+  $(function () {
+    // console.info('inputNameDeviceNum:', inputNameDeviceNum);
+    // console.info('inputNameDeviceSn:', inputNameDeviceSn);
+    inputNameDeviceNum.on('input', function () {
+      let inputDeviceNumVal = inputNameDeviceNum.val();
+      inputNameDeviceNum.val(inputDeviceNumVal);
+      inputNameDeviceName.val('设备-' + inputDeviceNumVal);
+      // console.info('inputDeviceNumVal:', inputDeviceNumVal, typeof inputDeviceNumVal);
+      let inputDeviceNumValIntVal = parseInt(inputDeviceNumVal);
+      // console.info('inputDeviceNumValIntVal:', inputDeviceNumValIntVal, typeof inputDeviceNumValIntVal);
+      let c = inputDeviceNumValIntVal.toString(16).toUpperCase();
+      while (c.length < 32) {
+        c = '0' + c;
+      }
+      inputNameDeviceSn.val(c);
+    });
+    // 输入 hex 解析 dec
+    inputNameDeviceSn.on('input', function () {
+      let inputNameDeviceSnVal = inputNameDeviceSn.val();
+      if (((inputNameDeviceSnVal.length) % 2) !== 0) {
+        inputNameDeviceSnVal = '0' + inputNameDeviceSnVal;
+      }
+      // console.info('inputNameDeviceSnVal:', inputNameDeviceSnVal, typeof inputNameDeviceSnVal);
+      let inputNameDeviceSnValIntVal = parseInt(inputNameDeviceSnVal, 16);
+      // console.info('inputNameDeviceSnValIntVal:', inputNameDeviceSnValIntVal, typeof inputNameDeviceSnValIntVal);
+      inputNameDeviceNum.val(inputNameDeviceSnValIntVal);
+      inputNameDeviceName.val('设备-' + inputNameDeviceSnValIntVal);
+    });
+  });
+</script>
+</body>
+</html>
